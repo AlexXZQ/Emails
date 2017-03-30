@@ -73,7 +73,6 @@ public class MailInfo implements Serializable{
         this.validate = validate;
     }
 
-
     public List<Attachment> getAttachmentInfos() {
         return attachmentInfos;
     }
@@ -81,8 +80,6 @@ public class MailInfo implements Serializable{
     public void setAttachmentInfos(List<Attachment> attachmentInfos) {
         this.attachmentInfos = attachmentInfos;
     }
-
-
 
     public String getFromAddress() {
         return fromAddress;
