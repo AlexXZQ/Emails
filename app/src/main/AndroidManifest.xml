@@ -17,6 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MailAddConstact"></activity>
+        <activity android:name=".MailBoxActivity"></activity>
+        <activity android:name=".MailContentActivity"></activity>
+        <activity android:name=".MailEditActivity"></activity>
+        <activity android:name=".MailConstactsActivity"></activity>
+
     </application>
 
 </manifest>
